@@ -1,3 +1,9 @@
+html,
+body{
+
+    overflow-x:hidden;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -444,4 +450,130 @@ footer{
     padding:40px 20px;
 
     margin-top:50px;
+}
+
+/* ==========================
+   MOVILES
+========================== */
+
+@media screen and (max-width: 600px){
+
+    /* MENU */
+
+    nav{
+
+        flex-direction:column;
+
+        padding:15px;
+
+        gap:15px;
+    }
+
+    nav ul{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:15px;
+
+        padding:0;
+    }
+
+    nav img{
+
+        height:50px;
+    }
+
+    /* HERO */
+
+    .hero{
+
+        height:70vh;
+    }
+
+    .hero-content{
+
+        padding:20px;
+    }
+
+    .hero-content h1{
+
+        font-size:2.2rem;
+
+        line-height:1.2;
+    }
+
+    .hero-content p{
+
+        font-size:1rem;
+    }
+
+    /* BOTON PRINCIPAL */
+
+    .btn-principal{
+
+        display:block;
+
+        width:100%;
+
+        max-width:300px;
+
+        margin:auto;
+    }
+
+    /* SERVICIOS */
+
+    .cards{
+
+        grid-template-columns:1fr;
+    }
+
+    /* BENEFICIOS */
+
+    .beneficios-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    /* GALERIAS */
+
+    .galeria-grid,
+    .galeria-grid-2{
+
+        grid-template-columns:1fr;
+    }
+
+    .galeria-grid img,
+    .galeria-grid-2 img{
+
+        height:250px;
+    }
+
+    /* CONTACTO */
+
+    .contact-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .btn-whatsapp,
+    .btn-correo{
+
+        width:100%;
+
+        max-width:300px;
+
+        text-align:center;
+    }
+
+    /* FOOTER */
+
+    footer{
+
+        padding:30px 15px;
+    }
+
 }
