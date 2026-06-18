@@ -38,3 +38,21 @@ section {
 .boton:hover {
     opacity: 0.8;
 }
+
+/****** Adaptar a celular  *******/
+
+@media (max-width:768px){
+
+    .servicios{
+        flex-direction:column;
+    }
+
+    .hero{
+        padding:80px 15px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+}
