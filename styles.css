@@ -220,6 +220,13 @@ transform:translateY(-10px);
 }
 
 /***NUESTROS SERVICIOS**/
+.servicios h1{
+
+    text-align:center;
+
+    margin-bottom:50px;
+}
+
 .cards{
 
     display:grid;
@@ -275,7 +282,16 @@ transform:translateY(-10px);
     margin-bottom:15px;
 }
 
-/* GALERIA 1*/
+/***TRABAJOS REALIZADOS***/
+
+.trabajos h1{
+
+    text-align:center;
+
+    margin-bottom:50px;
+}
+
+/**** GALERIA 1*****/
 
 .galeria-grid{
 
@@ -450,6 +466,19 @@ footer{
     padding:40px 20px;
 
     margin-top:50px;
+}
+
+.copyright{
+
+    margin-top:30px;
+
+    padding-top:20px;
+
+    border-top:1px solid rgba(255,255,255,0.2);
+
+    font-size:0.85rem;
+
+    color:#9ca3af;
 }
 
 /* ==========================

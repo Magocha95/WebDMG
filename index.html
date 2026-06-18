@@ -71,7 +71,7 @@
 
 </section >
 
-<section id="servicios">
+<section class="servicios" id="servicios">
 
     
     
@@ -105,8 +105,12 @@
 </div>
 
 </div>
+</section>
 
-<h2 >Trabajos Realizados</h2>
+
+
+<section class="trabajos">
+<h1 >Trabajos Realizados</h1>
 
 <div class="galeria-grid" id="trabajos">
 
@@ -126,6 +130,8 @@
     <img src="imagenes/trabajo8.jpg">
 
 </div>
+</section>
+
 
 <br>
 <br><br>
@@ -224,6 +230,12 @@ WhatsApp:
 automatizaciondmg@gmail.com
 </p>
 
+<div class="copyright">
+        © <span id="year"></span> DMG Automatización y Estructuras. Todos los derechos reservados.
+        <br>
+        Sitio web desarrollado por MG Digital Solutions.
+    </div>
+
 </footer>
 
 <!--BOTON WHATSAPP FLOTANTE-->
@@ -233,6 +245,11 @@ target="_blank">
     WhatsApp
 </a>
 
+<!--AÑO COPYRIGHT-->
+<script>
+document.getElementById("year").textContent =
+new Date().getFullYear();
+</script>
 
 <!--CARRUSEL-->
 <script>
