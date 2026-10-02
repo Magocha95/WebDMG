@@ -606,3 +606,424 @@ footer{
     }
 
 }
+
+/* =====================================================
+   PORTAFOLIO PROFESIONAL DMG
+===================================================== */
+
+.portafolio {
+    background: #f5f5f5;
+    padding: 90px 6%;
+}
+
+
+/* =====================================================
+   ENCABEZADO
+===================================================== */
+
+.portafolio-header {
+    max-width: 850px;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+
+.portafolio-etiqueta {
+    display: inline-block;
+    color: #f97316;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.portafolio-header h2 {
+    margin: 0 0 20px;
+    font-size: 3rem;
+    color: #111827;
+}
+
+.portafolio-header p {
+    margin: 0 auto;
+    max-width: 700px;
+    color: #6b7280;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   CATEGORÍAS
+===================================================== */
+
+.categoria-portafolio {
+    max-width: 1200px;
+    margin: 0 auto 90px;
+}
+
+.categoria-header {
+    margin-bottom: 30px;
+    border-left: 4px solid #f97316;
+    padding-left: 20px;
+}
+
+.categoria-header h3 {
+    margin: 0 0 8px;
+    color: #111827;
+    font-size: 1.8rem;
+}
+
+.categoria-header p {
+    margin: 0;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   GRID DE PROYECTOS
+===================================================== */
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+/* =====================================================
+   TARJETAS
+===================================================== */
+
+.proyecto-card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =====================================================
+   IMÁGENES Y VIDEOS
+===================================================== */
+
+.proyecto-media {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    background: #111827;
+}
+
+.proyecto-media img,
+.proyecto-media video {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* =====================================================
+   ETIQUETA VIDEO
+===================================================== */
+
+.media-label {
+    position: absolute;
+
+    top: 15px;
+    right: 15px;
+
+    background: rgba(15, 23, 42, 0.9);
+
+    color: white;
+
+    padding: 7px 12px;
+
+    border-radius: 5px;
+
+    font-size: 0.7rem;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+/* =====================================================
+   INFORMACIÓN DEL PROYECTO
+===================================================== */
+
+.proyecto-info {
+    padding: 25px 28px 30px;
+}
+
+.proyecto-tipo {
+    display: block;
+
+    color: #f97316;
+
+    font-size: 0.7rem;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+.proyecto-info h4 {
+    margin: 0 0 10px;
+
+    color: #111827;
+
+    font-size: 1.3rem;
+}
+
+.proyecto-info p {
+    margin: 0;
+
+    color: #6b7280;
+
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   ANTES Y DESPUÉS
+===================================================== */
+
+.antes-despues-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+.antes-despues-card {
+    background: white;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.antes-despues-media {
+    position: relative;
+
+    height: 380px;
+
+    background: #111827;
+}
+
+.antes-despues-media video {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+.estado {
+    position: absolute;
+
+    top: 15px;
+    left: 15px;
+
+    padding: 8px 14px;
+
+    border-radius: 5px;
+
+    color: white;
+
+    font-size: 0.7rem;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+.estado.antes {
+    background: #374151;
+}
+
+.estado.despues {
+    background: #f97316;
+}
+
+.antes-despues-info {
+    padding: 25px 28px 30px;
+}
+
+.antes-despues-info h4 {
+    margin: 0 0 10px;
+
+    color: #111827;
+
+    font-size: 1.25rem;
+}
+
+.antes-despues-info p {
+    margin: 0;
+
+    color: #6b7280;
+
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   TALLER
+===================================================== */
+
+.taller-portafolio {
+    margin-bottom: 0;
+}
+
+.taller-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.taller-item {
+    height: 300px;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    background: #111827;
+}
+
+.taller-item img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition:
+        transform 0.5s ease;
+}
+
+.taller-item:hover img {
+    transform: scale(1.04);
+}
+
+
+/* =====================================================
+   PROYECTOS DESTACADOS
+===================================================== */
+
+.proyecto-destacado {
+    border-top: 3px solid #f97316;
+}
+
+
+/* =====================================================
+   RESPONSIVE — TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .portafolio {
+        padding: 70px 5%;
+    }
+
+    .proyectos-grid,
+    .antes-despues-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .taller-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE — CELULAR
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .portafolio {
+        padding: 60px 20px;
+    }
+
+    .portafolio-header {
+        margin-bottom: 50px;
+    }
+
+    .portafolio-header h2 {
+        font-size: 2.2rem;
+    }
+
+    .portafolio-header p {
+        font-size: 1rem;
+    }
+
+    .categoria-portafolio {
+        margin-bottom: 65px;
+    }
+
+    .categoria-header {
+        padding-left: 15px;
+    }
+
+    .categoria-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .categoria-header p {
+        font-size: 0.95rem;
+    }
+
+    .proyectos-grid,
+    .antes-despues-grid,
+    .taller-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .proyecto-media {
+        height: 300px;
+    }
+
+    .antes-despues-media {
+        height: 300px;
+    }
+
+    .taller-item {
+        height: 280px;
+    }
+
+    .proyecto-info {
+        padding: 22px;
+    }
+
+}
