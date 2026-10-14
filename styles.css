@@ -727,14 +727,19 @@ footer{
     background: #111827;
 }
 
-.proyecto-media img,
+.proyecto-media img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
 .proyecto-media video {
     width: 100%;
     height: 100%;
-
     display: block;
-
-    object-fit: cover;
+    object-fit: contain;
+    background: #111827;
 }
 
 
